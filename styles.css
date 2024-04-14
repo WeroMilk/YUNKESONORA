@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    max-width: 500px; 
+    margin-left: 390px; 
+    margin-bottom: -60px;
+    margin-top: -70px;
+}
+
+.logo:hover {
+    cursor: pointer; 
+}
+
+main {
+    padding: 20px;
+}
+
+#busqueda {
+    margin-bottom: 20px;
+    margin-top: -40px; 
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 6px;
+    border-radius: 10px; 
+    backdrop-filter: blur(10px); 
+}
+
+#busqueda form {
+    display: inline-block;
+}
+
+#busqueda label,
+#busqueda input,
+#busqueda button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#busqueda input:focus,
+#busqueda button:focus {
+    outline: none; 
+}
+
+#mapa {
+    text-align: center;
+    position: relative; 
+}
+
+#mapa img {
+    border-radius: 10px; 
+    max-width: 100%; 
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+.yunkes {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 50%; 
+    margin: 0 auto 20px auto; 
+}
+
+.info p {
+    margin: 0 0 10px;
+}
+
+.location-icon {
+    position: absolute;
+    width: 25px;
+    height: 32px;
+    background-image: url('location.jpg');
+    background-size: cover;
+    cursor: pointer;
+    left: 637px; 
+    top: 327px; 
+}
+
+.hidden {
+    display: none;
+}
+#busqueda h2 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#mapa h5 {
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1.0);
+}
+.yunkes-img {
+    float: right;
+    margin-top: -30px;
+    margin-left: 20px;
+    max-width: 150px;
+}
+.yunkes-img-search{
+    float: right;
+    margin-top: -135px;
+    margin-left: 20px;
+    max-width: 150px;
+}

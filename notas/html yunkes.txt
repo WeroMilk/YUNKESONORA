@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YunkeSonora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="mi_logo.png" alt="Mi Logo" class="logo">
+    </header>
+    <main>
+        <section id="busqueda">
+            <h2>¿Qué vehículo estamos buscando?</h2>
+            <form id="form-busqueda">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca" required title="Por favor, complete este campo">
+
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo" required title="Por favor, complete este campo">
+
+                <label for="año">Año:</label>
+                <input type="number" id="año" name="año" min="1900" max="2024" required title="Por favor, complete este campo">
+
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" title="Por favor, complete este campo">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <section id="mapa">
+            <h5>*Da click en el icono rojo para ver en donde tenemos Yunkes Asociados*</h5>
+            <div id="location-icon" class="location-icon"></div>
+            <img src="mapa_sonora.jpg" alt="Mapa de Sonora" style="max-width: 50%;">
+        </section>
+        <section id="resultados" class="hidden">
+            <div class="yunkes-container">
+                <div class="yunkes">
+                    <h2>Yunke "Los Hermanos"</h2>
+                    <img src="ejemplo1.jpg" alt="Ejemplo 1" class="yunkes-img">
+                    <div class="info">
+                        <p>Dirección: Lázaro Cárdenas 1, Hermosillo, Sonora</p>
+                        <p>Teléfono: +52 6622-29-38-79</p>
+                        <p>WhatsApp: <a href="https://wa.me/+526622293879">6622-29-38-79</a></p>
+                    </div>
+                </div>
+                <div class="yunkes">
+                    <h2>Yunke "Topota Madre"</h2>
+                    <img src="ejemplo2.jpg" alt="Ejemplo 2" class="yunkes-img">
+                    <div class="info">
+                        <p>Dirección: Gilvertona Doiminguez 18, Hermosillo, Sonora</p>
+                        <p>Teléfono: +52 6622-23-98-33</p>
+                        <p>WhatsApp: <a href="https://wa.me/+526622293879">6622-39-11-39</a></p>
+                    </div>
+                </div>
+                <div class="yunkes">
+                    <h2>Yunke "Don Felix"</h2>
+                    <img src="ejemplo3.jpg" alt="Ejemplo 3" class="yunkes-img">
+                    <div class="info">
+                        <p>Dirección: Veracrúz 56, Hermosillo, Sonora</p>
+                        <p>Teléfono: +52 6621-82-97-24</p>
+                        <p>WhatsApp: <a href="https://wa.me/+526621829724">6621-82-97-24</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
